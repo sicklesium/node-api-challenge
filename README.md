@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned a lot to be honest. The thing that stuck out to me the most was using middleware as well as how to route things in different files. I like organization. 
+
 - [ ] Describe Middleware?
+
+Middleware is either third-party software or our own functions that perform an action and/or mutates data over the course the data is received from the client but before the response is sent back.
 
 - [ ] Describe a Resource?
 
+A resource is anything inside the database that can be interacted with with the API. You may perform CRUD operations on a resource. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+Please use status codes! 200 means "OK", 201 means "Created", etc... You can also return json that reads `succes: true`. 
+
 - [ ] How can we partition our application into sub-applications?
+
+Using routers in separate files, as well as using middleware in separate files. Use folders! 
 
 ## Minimum Viable Product
 
